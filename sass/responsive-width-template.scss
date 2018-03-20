@@ -1,0 +1,77 @@
+//should remove the important once the bootstrap is fixed
+@import "studio-responsive-theme/header";
+@import "studio-responsive-theme/buttons";
+@import "studio-responsive-theme/label";
+@import "studio-responsive-theme/alerts";
+@import "studio-responsive-theme/form";
+@import "studio-responsive-theme/nav";
+@import "studio-responsive-theme/bars";
+@import "studio-responsive-theme/app-title";
+
+.container {
+  width: 100%;
+}
+.fixed-width {
+  width: 98%;
+  margin: auto;
+}
+p {
+    font-family: proxima-nova-medium;
+    font-size: 20px;
+    color: #454545;
+}
+a {
+    font-family: proxima-nova-medium;
+    font-size: 18px;
+}
+span {
+    font-family: proxima-nova-regular;
+    font-size: 14px;
+    color: #969696;
+}
+.spinner-lay-over {
+  position: fixed;
+  font-size: 150px;
+  margin-left: 50%;
+  z-index: 10;
+  i {
+    color: #000;
+    font-size: 150px;
+  }
+}
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.help-text {
+  border-radius: 9px;
+  font-family: proxima-nova-semibold !important;
+  padding: 15px 20px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+  border: solid 2px #000;
+  &.success {
+    color: #6bc643;
+    border: solid 2px #6bc643;
+  }
+  &.info {
+    color: #3aa7e2;
+    border: solid 2px #3aa7e2;
+  }
+  &.warning {
+    color: #f7ca45;
+    border: solid 2px #f7ca45;
+  }
+  &.error {
+    color: #fc755b;
+    border: solid 2px #fc755b;
+  }
+}
+
+@media (min-width: 1400px) {
+  .fixed-width {
+    width: 1400px;
+    margin: auto;
+  }
+}

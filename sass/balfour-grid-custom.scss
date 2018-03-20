@@ -1,0 +1,48 @@
+.react-grid-Container,
+  span {
+  font-family: proxima-nova-medium;
+  color: #4a4a4a;
+  .react-grid-HeaderCell {
+    background-color: #d9dad9;
+  }
+  .DayPickerInput-Overlay {
+    z-index: 99;
+    top: -35px;
+    left: -199px;
+  }
+  .react-grid-Viewport {
+    top: 35px !important;
+    .react-grid-Row {
+      height: 67px !important;
+      padding-top: 12px;
+      border-bottom: solid 1px rgba(151, 151, 151, 0.4);
+    }
+    .react-grid-Cell {
+      border: none;
+      padding: 0;
+      .trash-icon {
+        padding: 11px;
+        cursor: pointer;
+      }
+      &.input-border {
+        width: 140px !important;
+        input {
+        &:focus {
+          @extend .calendar-info-sm;
+          background-position: 95% center;
+          height: 35px;
+          width: 140px;
+          padding-right: 0;
+          cursor: pointer;
+        }          
+        height: 35px;
+        width: 140px;
+        @extend .calendar-sm;
+        background-repeat: no-repeat;
+        background-position: 95% center;
+        cursor: pointer;
+        }
+      }
+    }
+  }
+}

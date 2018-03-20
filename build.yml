@@ -1,0 +1,14 @@
+---
+- name: "{{ item }}: npm install"
+  npm:
+    path: "{{ BUILD_DIR }}"
+
+- name: "{{ item }}: npm install -g gulp"
+  npm:
+    name: gulp
+    global: yes
+
+- name: "{{ item }}: gulp"
+  command: gulp
+  args:
+    chdir: "{{ BUILD_DIR }}"

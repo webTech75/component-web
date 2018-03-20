@@ -1,0 +1,27 @@
+.panel-default {
+    .panel-heading {
+        background-color: #fff;
+        border: 1px solid #D9D9D9;
+
+        h3 {
+            font-size: 22px;
+        }
+    }
+    .panel-body {
+        border: 1px solid #D9D9D9;
+        li {
+            padding-bottom: 15px;
+        }
+    }
+    .panel-heading.panel-heading-outline, 
+    .panel-body.panel-body-outline {
+        border-right: 10px solid #D9D9D9;
+        border-left: 10px solid #D9D9D9;
+    }
+    .panel-heading.panel-heading-outline {
+        border-top: 10px solid #D9D9D9;
+    }
+    .panel-body.panel-body-outline {
+        border-bottom: 10px solid #D9D9D9;
+    }
+}

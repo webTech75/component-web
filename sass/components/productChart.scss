@@ -1,0 +1,97 @@
+.product-enabled {
+    .row {
+        padding-top: 5px;
+    }
+    .products-enabled-headers {
+        background-color: #DDD;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .products {
+        > div {
+            padding-left: 15px;
+        }
+        .tiers {
+            > .row {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+        .namestamps {
+            > .row {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+        .icons {
+            > .row {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+        .package-child-products {
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .toggle-inactive-md,
+        .toggle-active-md,
+        .toggle-inactive-transparent-md,
+        .toggle-active-transparent-md {
+            float: left;
+            margin-left: 30px;
+        }
+        .toggle-inactive-md,
+        .toggle-active-md {
+            cursor: pointer;
+        }
+        .product-description {
+            font-style: italic;
+            color: #333;
+            font-size: 11px;
+        }
+    }
+    .categories {
+        padding-left: 10px;
+        padding-right: 10px;
+        > div {
+            > div:first-child {
+                border-bottom: 2px solid #eee;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .category-name {
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    .active-tier {
+        color: #0094D2;
+    }
+    i,
+    .color-red {
+      cursor: pointer;
+    }
+}
+
+.category-Accessories,
+.category-Package,
+.category-Custom{
+    .products {
+        >div {
+            &:nth-child(even) {
+                background-color: #F8F8F8;
+            }
+        }
+    }
+}
+
+.summary-chart-wrapper { 
+    .help-block {
+        margin: 0;
+    }
+    .products-enabled-headers {
+        margin-top: 5px;
+    }
+}

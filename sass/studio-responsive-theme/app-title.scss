@@ -1,0 +1,35 @@
+.app-title-wrapper {
+  padding-top: 20px;
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h3 {
+    margin-top: 5px;
+  }
+}
+
+.app-status-wrapper {
+  label {
+    padding-top: 24px;
+    color: #757575 !important;
+    font-size: 20px !important;
+    font-family: proxima-nova-medium !important;
+  }
+}
+.app-status {
+  border: 2px solid #9b9b9b;
+  display: flex;
+  padding: 15px 25px;
+  margin-left: 20px;
+  border-radius: 8px;
+  p {
+    color: #4a4a4a;
+    font-size: 14px;
+  }
+  span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #9b9b9b;
+  }
+}

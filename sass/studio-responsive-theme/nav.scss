@@ -1,0 +1,40 @@
+.nav-stacked {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    > li {
+        padding: 17px 26px;
+        border-bottom: solid 1px rgba(151, 151, 151, 0.4);
+        &:nth-child(1) {
+            background-color: #d9dad9;
+        }
+    }
+}
+.top-nav-wrapper {
+  background-color: #3ca6dd;
+}
+.top-nav-wrapper {
+  .nav-pills {
+    >li {
+      padding: 15px 20px;
+      &:first-child {
+        padding-left: 0;
+      }
+      >a {
+        padding: 5px 10px;
+        color: #fff;
+        &:hover {
+          background-color: #3ca6dd;
+        }
+      }
+      &.active {
+        >a {
+          background-color: #3ca6dd;
+          border-bottom: 1px solid #fff;
+        }
+      }
+    }
+    .btn {
+      float: left;
+    }
+  }
+}

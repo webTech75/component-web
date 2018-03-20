@@ -1,0 +1,54 @@
+.DayPicker {
+    border-radius: 5px;
+    box-shadow: 1px 3px 7px 0 rgba(0, 0, 0, 0.39);
+    .DayPicker-NavButton--next {
+    }
+    .DayPicker-Caption {
+        font-family: proxima-nova-semibold;
+        font-size: 12px;
+        font-weight: 600;
+        color: #454545;
+    }
+    .DayPicker-WeekdaysRow {
+        border-bottom: 1px solid #3aa7e2;
+    }
+    .DayPicker-Weekday {
+        font-family: proxima-nova-regular;
+        font-size: 12px;
+        color: #3aa7e2;
+        padding-bottom: 0;
+    }
+    .DayPicker-Day {
+        font-family: proxima-nova-regular;
+        font-size: 12px;
+        background-color: #fff;
+        border: 0;
+        color: #454545;
+    }
+    .DayPicker-Day--disabled {
+        color: #d9d9d9;
+    }
+    .DayPicker-NavButton {
+        width: 0;
+        height: 0;
+        background-image: none;
+    }
+    .DayPicker-NavButton--next,
+    .DayPicker-NavButton--prev {
+        margin-top: 3px;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+    }
+
+    .DayPicker-NavButton--next {
+        border-left: 10px solid #969696;
+    }
+    .DayPicker-NavButton--prev {
+        border-right: 10px solid #969696;
+    }
+    .DayPicker-Day--selectedDay {
+        color: #ffffff;
+        background-color: #3aa7e2;
+        border-radius: 50%;
+    }
+}

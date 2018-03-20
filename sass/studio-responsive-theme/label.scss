@@ -1,0 +1,11 @@
+label {
+    font-family: proxima-nova-medium !important;
+    font-size: 14px !important;
+    color: #4a4a4a !important;
+    &.label-info {
+        font-family: proxima-nova-semibold !important;
+        font-size: 24px !important;
+        background-color: #fff;
+        border: none;
+    }
+}

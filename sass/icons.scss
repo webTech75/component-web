@@ -1,0 +1,177 @@
+.toggle-active-sm {
+    background-image: url("/apps/components-web/images/toggle-active-sm.png");
+    width: 25px;
+    height: 12px;
+    margin: auto;
+}
+.toggle-active-md {
+    background-image: url("/apps/components-web/images/toggle-active-md.png");
+    width: 50px;
+    height: 24px;
+    margin: auto;
+}
+.toggle-active-lg {
+    background-image: url("/apps/components-web/images/toggle-active-lg.png");
+    width: 75px;
+    height: 35px;
+    margin: auto;
+}
+.toggle-inactive-sm {
+    background-image: url("/apps/components-web/images/toggle-inactive-sm.png");
+    width: 25px;
+    height: 12px;
+    margin: auto;
+}
+.toggle-inactive-md {
+    background-image: url("/apps/components-web/images/toggle-inactive-md.png");
+    width: 50px;
+    height: 24px;
+    margin: auto;
+}
+.toggle-inactive-lg {
+    background-image: url("/apps/components-web/images/toggle-inactive-lg.png");
+    width: 75px;
+    height: 35px;
+    margin: auto;
+}
+.toggle-active-transparent-sm {
+    background-image: url("/apps/components-web/images/toggle-active-transparent-sm.png");
+    width: 25px;
+    height: 12px;
+    margin: auto;
+}
+.toggle-active-transparent-md {
+    background-image: url("/apps/components-web/images/toggle-active-transparent-md.png");
+    width: 50px;
+    height: 24px;
+    margin: auto;
+}
+.toggle-active-transparent-lg {
+    background-image: url("/apps/components-web/images/toggle-active-transparent-lg.png");
+    width: 75px;
+    height: 35px;
+    margin: auto;
+}
+.toggle-inactive-transparent-sm {
+    background-image: url("/apps/components-web/images/toggle-inactive-transparent-sm.png");
+    width: 25px;
+    height: 12px;
+    margin: auto;
+}
+.toggle-inactive-transparent-md {
+    background-image: url("/apps/components-web/images/toggle-inactive-transparent-md.png");
+    width: 50px;
+    height: 24px;
+    margin: auto;
+}
+.toggle-inactive-transparent-lg {
+    background-image: url("/apps/components-web/images/toggle-inactive-transparent-lg.png");
+    width: 75px;
+    height: 35px;
+    margin: auto;
+}
+.left-arrow {
+    background-image: url('/apps/components-web/images/arrow-to-left.png');
+    width: 52px;
+    height: 36px;
+    margin: auto;
+}   
+.right-arrow {
+    background-image: url('/apps/components-web/images/arrow-to-right.png');
+    width: 52px;
+    height: 36px;
+    margin: auto;
+}  
+.box-3d {
+    background-image: url('/apps/components-web/images/box.png');
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+}
+.mail-box {
+    background-image: url('/apps/components-web/images/mailbox.png');
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+}
+.calendar {
+    background-image: url('/apps/components-web/images/calendar.png');
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+}
+.calendar-sm {
+    background-image: url('/apps/components-web/images/calendar.png');
+    background-size: 21px 21px;
+    width: 21px;
+    height: 21px;
+}
+.trash-icon {
+    background-image: url('/apps/components-web/images/trash.png');
+    background-size: 20px 26px;
+    width: 20px;
+    height: 26px;
+}
+.calendar-info-sm {
+  background-image: url('/apps/components-web/images/calendar-info.png');
+  background-size: 21px 21px;
+  width: 21px;
+  height: 21px;
+}
+.calendar-info {
+    background-image: url('/apps/components-web/images/calendar-info.png');
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+}
+.export-icon-lg {
+    background-image: url('/apps/components-web/images/export-lg.png');
+    background-size: 31px 26px;
+    width: 31px;
+    height: 26px;
+}
+
+.warning-icon {
+    background-image: url('/apps/components-web/images/warning.png');
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+}
+.active-checkmark-icon,
+.close-icon,
+.contract-icon,
+.pending-icon,
+.submit-icon,
+.empty-icon
+{
+    border-radius: 100%;
+    padding: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 6px;
+}
+
+.active-checkmark-icon {
+    background-color: #8dc555;
+    background-image: url("/apps/components-web/images/active-checkmark-icon-sm.png");
+}
+.close-icon {
+    background-color: #ed523b;
+    background-image: url("/apps/components-web/images/close-icon-sm.png");
+}
+.contract-icon {
+    background-color: #4a4a4a;
+    background-image: url("/apps/components-web/images/contract-icon-sm.png");
+}
+.pending-icon {
+    background-color: #f0b547;
+    background-image: url("/apps/components-web/images/pending-icon-sm.png");
+}
+.submit-icon {
+    background-color: #3ca6dd;
+    background-image: url("/apps/components-web/images/submit-icon-sm.png");
+}
+.empty-icon {
+    background-color: #9b9b9b;
+    background-image: url("/apps/components-web/images/empty-icon-md.png");
+}

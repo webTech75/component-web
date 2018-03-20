@@ -1,0 +1,43 @@
+.form-group {
+    span.help-block {
+        text-align: right;
+    }
+}
+
+.modal-container {
+    width: 30%;
+    min-width: 650px;
+    .modal-header {
+        font-size: 29px;
+        padding: 20px 30px;
+        color: #fff;
+        background-color: #3aa7e2;
+        border-radius: 3px;
+        h4 {
+            text-transform: none;
+            font-family: proxima-nova-bold !important;
+            font-size: 28px;
+        }
+    }
+    .modal-body {
+        padding: 30px 40px;
+        .btn {
+            font-family: proxima-nova-semibold;
+            display: block;
+            margin: 20px auto;
+            font-size: 16px;
+            font-weight: 600;
+            min-width: 401px;
+            padding: 22px;
+            border-radius: 3px;
+        }
+        .btn-default {
+            color: #3aa7e2;
+            border: solid 3px #3aa7e2 !important;
+            &:hover {
+                color: #3aa7e2;
+                background-color: #fff;
+            }
+        }
+    }
+}

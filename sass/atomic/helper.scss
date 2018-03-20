@@ -1,0 +1,70 @@
+.display-block {
+    display: block;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.textarea-expand {
+    resize: vertical;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+a {
+    @extend .cursor-pointer;
+}
+
+.fa-pulse {
+    font-size: 100px;
+}
+
+.word-wrap {
+    word-wrap: break-word;
+}
+
+.color-grey {
+    color: #757575;
+}
+
+.color-greyish-brown {
+    color: #4a4a4a;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+.font-size-25 {
+    font-size: 25px;
+}

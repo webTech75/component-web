@@ -1,0 +1,10 @@
+.bars {
+   float: right;
+   cursor: pointer;
+   div {
+       width: 24px;
+       height: 3px;
+       background: #d9dad9;
+       margin-bottom: 4px;
+   }
+}

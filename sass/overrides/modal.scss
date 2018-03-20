@@ -1,0 +1,40 @@
+.modal-lg {
+    width: 80% !important;
+}
+
+.modal-md {
+    width: 50% !important;
+}
+
+.modal-lg, 
+.modal-md {
+    .modal-body {
+        max-height: 550px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+
+.modal-content {
+    padding: 10px;
+}
+
+.modal-header {
+    border-bottom: 2px solid #333;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.modal-body {
+    padding: 20px;
+    .row {
+        padding-bottom: 15px;
+    }
+    > .b0.row {
+        border: 0;
+    }
+}
+
+.modal-footer {
+    border-top: 2px solid #333;
+}
